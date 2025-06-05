@@ -14,12 +14,12 @@
 Summary:	OSMesa (off-screen renderer) library
 Summary(pl.UTF-8):	Biblioteka OSMesa (renderująca bitmapy w pamięci)
 Name:		Mesa-libOSMesa
-Version:	25.0.5
+Version:	25.0.7
 Release:	1
 License:	MIT
 Group:		X11/Libraries
 Source0:	https://archive.mesa3d.org/mesa-%{version}.tar.xz
-# Source0-md5:	7135bf390ee1b0b002870f76661fdca3
+# Source0-md5:	dcbdee66fa6ab4b8a6081aca4a0c3e0d
 URL:		https://www.mesa3d.org/
 BuildRequires:	bison >= 2.4.1
 BuildRequires:	elfutils-devel
