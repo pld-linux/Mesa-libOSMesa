@@ -66,7 +66,7 @@ Summary:	Header file for OSMesa (off-screen renderer) library
 Summary(pl.UTF-8):	Plik nagłówkowy biblioteki OSMesa (renderującej bitmapy w pamięci)
 License:	MIT
 Group:		Development/Libraries
-Requires:	%{name}-libOSMesa%{?_isa} = %{version}-%{release}
+Requires:	%{name}%{?_isa} = %{version}-%{release}
 # for <GL/gl.h> only
 Requires:	OpenGL-devel
 Obsoletes:	Mesa-libOSMesa-static < 18.3
